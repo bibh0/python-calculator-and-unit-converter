@@ -6,7 +6,7 @@ def to_meter(x):
 	elif from_unit == 'km':
 		meter=1000*x
 	elif from_unit == 'foot':
-		meter=.3048*x
+		meter=3.28*x
 	elif from_unit == 'mile':
 		meter= 1609.34*x
 	elif from_unit == 'inch' :
